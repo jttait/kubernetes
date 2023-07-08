@@ -1,4 +1,3 @@
-
 1. sudo systemctl start docker
 1. minikube start
 1. eval $(minikube docker-env)
