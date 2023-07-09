@@ -9,3 +9,6 @@
 1. helm upgrade test-app .
 1. kubectl get pods
 1. There should be 3 pods
+1. helm uninstall test-app
+1. kubectl get pods
+1. There should be 0 pods
