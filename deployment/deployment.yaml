@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: myapp/nodetestapp
-        imagePullPolicy: Never
+        image: testserver
+        imagePullPolicy: IfNotPresent
         resources:
           limits:
             memory: "128Mi"

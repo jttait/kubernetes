@@ -2,6 +2,7 @@
 1. minikube start
 1. eval $(minikube docker-env)
 1. docker build . -t myapp/testnodeapp
+1. kubectl config use-context minikube
 1. kubectl create -f deployment.yaml
 1. kubectl get pods
 1. kubectl create -f service.yaml
